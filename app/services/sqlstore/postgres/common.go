@@ -28,6 +28,7 @@ func getViewData(view string) (string, []enum.PostStatus, string) {
 		enum.PostOpen,
 		enum.PostStarted,
 		enum.PostPlanned,
+		enum.PostCompleted,
 	}
 	switch view {
 	case "recent":
